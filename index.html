@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi formulario</title>
 
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>Crear una cuenta</h1>
+    <p>Completa tus datos para registrarte.</p>
+
+    <form id="registroForm">
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" required>
+
+        <label for="usuario">Nombre de usuario:</label>
+        <input type="text" id="usuario" required>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" required>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <p id="mensaje"></p>
+
+</body>
+</html>
